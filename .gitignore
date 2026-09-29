@@ -1,0 +1,38 @@
+# Credentials and personal MCP configuration
+.env
+.env.*
+!.env.example
+.mcp.json
+.codex/
+.claude/
+*.pem
+*.key
+
+# Python environments, bytecode, and tooling caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Downloaded content, models, indices, and generated research artifacts
+/data/
+/models/
+/outputs/
+/tmp/
+/reports/*.json
+*.log
+
+# OS and editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
